@@ -30,7 +30,7 @@ const MainNavbarVariant = () => {
                 </Link>
             </div>
 
-            <div className={'h-full text-black text-[.93rem]'}>
+            <div className={'h-full text-black text-[.93rem] hidden md:block'}>
                 <ul className={'flex h-full items-center'}>
                     
                     <Button
@@ -108,7 +108,7 @@ const MainNavbarVariantBlock = () => {
                 </Link>
             </div>
 
-            <div className={'h-full  text-[.93rem]'}>
+            <div className={'h-full  text-[.93rem] hidden md:block'}>
                 <ul className={'flex h-full items-center gap-8'}>
                     
                     <Button
