@@ -6,7 +6,7 @@ import Link from 'next/link';
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-12">
+    <main className="flex min-h-screen flex-col items-center justify-between px-12">
       {<Image
       src={'/blurry.svg'}
       alt={'Background'}
@@ -15,7 +15,7 @@ export default function Home() {
       height={1000}
       className={'w-full pointer-events-none h-screen absolute top-0 left-0 object-cover select-none'}
   />}
-      <div className='h-screen flex items-center justify-center w-full relative'>
+      <div className='min-h-screen flex items-center justify-center w-full relative py-20'>
        
         <div className='flex flex-col gap-4 max-w-2xl'>
           <div className={'flex flex-col gap-4'}>
