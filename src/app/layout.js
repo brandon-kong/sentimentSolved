@@ -3,6 +3,8 @@ import { Inter, Open_Sans } from 'next/font/google'
 import Footer from '@/components/layout/Footer'
 import Navbar from '@/components/layout/Navbar'
 
+import { Analytics } from '@vercel/analytics/react';
+
 const inter = Inter({ subsets: ['latin'] })
 const open_sans = Open_Sans({
   subsets: ['latin'],
@@ -21,6 +23,8 @@ export default function RootLayout({ children }) {
           <Navbar />
           {children}
          <Footer />
+         
+         <Analytics />
       </body>
     </html>
   )
